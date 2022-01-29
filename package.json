@@ -1,0 +1,25 @@
+{
+  "name": "quokka-promise",
+  "version": "1.0.0",
+  "description": "Sample repo for Quokka issue",
+  "main": "index.js",
+  "type": "module",
+  "author": "Andreas Korth",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "hastscript": "^7.0.2",
+    "rehype-format": "^4.0.1",
+    "rehype-parse": "^8.0.4",
+    "rehype-sanitize": "^5.0.1",
+    "rehype-stringify": "^9.0.2",
+    "remark-directive": "^2.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "to-vfile": "^7.2.3"
+  }
+}
